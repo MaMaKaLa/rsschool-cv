@@ -1,5 +1,5 @@
 + # Anton Yakubovskiy
-====
+
 + ## My Contact Info
 
     - ### Location: Mogilev
@@ -9,26 +9,26 @@
     - [Vkontakte account](https://vk.com/fuckingtoy "VK")
     - Telegram: @passunknown
     - [Discord account](https://discordapp.com/users/374652002828943360 "Discord"): MaMaKaLa#2147
-====
+
 + ## About Me
 
 I am 25. I work at the cinema in the Booker position. Booker in the cinema is responsible for the repertoire and availability of films. I am currently looking for a career in IT. I like learning new things and traveling. So far, it turns out to learn only new things, not to travel. I ride a bike a lot. I know how to play hockey.
-====
+
 + ## Skills
 
     - HTML
     - CSS
     - Git|GitHub
     - Сommunicative
-====
+
 + ## Code examples
 `Hello World!`
-====
+
 + ## Experience: open for new
-====
+
 + ## Education: Online self education
 
     + htmlacademy - html and css courses
     + RS School -  in process...
-====
+
 + ## English level: Basic from school (A2)
