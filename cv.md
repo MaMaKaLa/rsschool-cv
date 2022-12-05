@@ -2,13 +2,13 @@
 
 + ## My Contact Info
 
-    - ### Location: Mogilev
-    - ### Email: 1taylor1825@gmail.com
-    - Mobile phone number : +375 (29) 7324487
+    - **Location**: Mogilev, Belarus
+    - **Email**: 1taylor1825@gmail.com
+    - **Mobile phone number** : +375 (29) 7324487
+    - **Telegram**: @passunknown
     - [Github account](https://github.com/MaMaKaLa "Github account"): MaMaKaLa
     - [Vkontakte account](https://vk.com/fuckingtoy "VK")
-    - Telegram: @passunknown
-    - [Discord account](https://discordapp.com/users/374652002828943360 "Discord"): MaMaKaLa#2147
+       - [Discord account](https://discordapp.com/users/374652002828943360 "Discord"): MaMaKaLa#2147
 
 + ## About Me
 
@@ -24,11 +24,12 @@ I am 25. I work at the cinema in the Booker position. Booker in the cinema is re
 + ## Code examples
 `Hello World!`
 
-+ ## Experience: open for new
++ ## Experience:
+ *Nothing yet…*
 
 + ## Education: Online self education
 
-    + htmlacademy - html and css courses
+    + htmlacademy - html and css video course
     + RS School -  in process...
 
 + ## English level: Basic from school (A2)
