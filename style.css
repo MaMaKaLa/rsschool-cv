@@ -21,3 +21,39 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body {
+    background-color: #ffcd00;
+    color: indigo;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'FuturaPT';
+}
+
+h1 {
+    color-scheme: aqua;
+    font-family: 'FuturaPT Medium';
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px red;
+}
+
+ul.social {
+    margin: 0;
+    /* Обнуляем значение отступов */
+    padding: 4px;
+    /* Значение полей */
+    text-decoration: none;
+}
+
+ul.social li {
+    display: inline;
+    /* Отображать как строчный элемент */
+    margin-right: 5px;
+    /* Отступ слева */
+    padding: 3px;
+    /* Поля вокруг текста */
+}
