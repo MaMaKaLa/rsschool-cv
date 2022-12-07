@@ -35,17 +35,6 @@ h1 {
     font-family: 'FuturaPT Medium';
 }
 
-.avatar {
-    width: 200px;
-    border-radius: 50px;
-    box-shadow: 4px 4px 14px red;
-}
-
-.social {
-    display: flex;
-    flex-direction: row;
-}
-
 .about {
     width: 300px;
     height: 200px;
