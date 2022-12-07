@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mamakala.github.io/rsschool-cv/
