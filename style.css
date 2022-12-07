@@ -41,19 +41,13 @@ h1 {
     box-shadow: 4px 4px 14px red;
 }
 
-ul.social {
-    margin: 0;
-    /* Обнуляем значение отступов */
-    padding: 4px;
-    /* Значение полей */
-    text-decoration: none;
+.social {
+    display: flex;
+    flex-direction: row;
 }
 
-ul.social li {
-    display: inline;
-    /* Отображать как строчный элемент */
-    margin-right: 5px;
-    /* Отступ слева */
-    padding: 3px;
-    /* Поля вокруг текста */
+.about {
+    width: 300px;
+    height: 200px;
+    /* Размеры */
 }
