@@ -3,59 +3,160 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
 
 <body>
-    <h1> Anton Yakubovskiy </h1>
-    <hr>
 
-    <h2>Contact info</h2>
-    <ul>
-        <li>Location: Mogilev, Belarus</li>
-        <li>Email: 1taylor1825@gmail.com</li>
-        <li>Mobile phone number : +375 (29) 7324487</li>
-        <li>Github account:MaMaKaLa</li>
-        <li>Discord Account: MaMaKaLa#2147</li>
-    </ul>
+    <header>
+        <nav class="nav-list">
+            <ul class="nav-item">
+                <li><a href="#" class="js-open-modal" data-modal="1">Contacts</a></li>
+                <li><a href="#" class="js-open-modal" data-modal="2">About me</a></li>
+                <li><a href="#" class="js-open-modal" data-modal="3">EXIT</a></li>
 
-    <h2>About Me</h2>
-    <div class="about">
-        <p>I am 25. I work at the cinema in the Booker position. Booker in the cinema is responsible for the
-            repertoire and availability of films. I am currently looking for a career in IT. I like learning new
-            things and traveling. Sofar,it turns out to learn only new things, not to travel. I ride a bike a lot. I
-            know how to play hockey.
-        </p>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="left">
+            <div class="profile">
+                <img class="ava" src="/icons/ava.jpg" alt="">
+            </div>
+            <section class="contacts">
+                <h3>Contacts</h3>
+                <div class="lineinfo">
+                    <img class="giticon" src="/icons/git.png" alt="">
+                    <a class="text" href="https://github.com/MaMaKaLa" target="_blank">Github</a>
+                </div>
+                <div class="lineinfo">
+                    <img class="telicon" src="/icons/tel.png" alt="">
+                    <a class="text" href="tel:+375297324487">Call me</a>
+                </div>
+                <div class="lineinfo">
+                    <img class="emailicon" src="/icons/mail.png" alt="">
+                    <a class="text" href="mailto:1taylor1825@gmail.com">1taylor1825@gmail.com</a>
+                </div>
+                <div class="lineinfo">
+                    <img class="locationicon" src="/icons/location.png" alt="">
+                    <a class="text" href="https://yandex.by/maps/158/mogilev/?ll=30.330654%2C53.894548&z=12"
+                        target="_blank">Belarus, Mogilev</a>
+                </div>
+                <div class="lineinfo"><img class="tgicon" src="/icons/tg.png" alt="">
+                    <a class="text" href="https://t.me/+M83RNYSSzu04ZTIy" target="_blank">Telegram</a>
+                </div>
+            </section>
+
+            <section class="techstack">
+                <h3>Skills</h3>
+                <div class="skillsicon">
+                    <img src="/icons/html.png" alt="">
+                    <img src="/icons/css.png" alt="">
+                    <img src="/icons/js.png" alt="">
+                    <img src="/icons/figma.png" alt="">
+                </div>
+            </section>
+            <section class="education">
+                <div>
+                    <h3 class="edctn">Education</h3>
+                    <h4>International University “MITSO”</h4>
+                    <ul class="education-li">
+                        <li class="text2">Marketing and advertising</li>
+                    </ul>
+                    <h4>Online courses</h4>
+                    <ul class="education-li">
+                        <li class="text2">htmlacademy: html and css video course</li>
+                        <li class="text2">The RS School:«JavaScript/Front-end. Stage 0»</li>
+                        <li class="text2">IT-incubator:JS React "Путь самурая"</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <section class="right">
+            <Section class="name">
+                <div class="circle">
+                    <nav class="circle2"><img src="/icons/circle.png" alt=""></nav>
+                </div>
+                <div class="nametext">
+                    <h1>ANTON <span class="colortext">YAKUBOVSKIY</span></h1>
+                    <h2>Front-end Developer</h2>
+                </div>
+            </Section>
+            <div class="about">
+                <p class="abouttext">I am 25. I work at the cinema in the Booker position. Booker in the cinema is
+                    responsible for the repertoire and availability of films. I am currently looking for a career in
+                    IT.
+                    I like learning new things and traveling. Sofar,it turns out to learn only new things, not to
+                    travel. I ride a bike a lot. I know how to play hockey.</p>
+            </div>
+            <section class="exp">
+                <h3>Experience</h3>
+                <p class="exptext">
+                    I managed to work as a bank employee, accountant, freight forwarder, marketer, and advertiser. I
+                    also work in the film industry. I know how to communicate with people, to negotiate. Sold a lot
+                    of
+                    pens. I have more than 1000 successful transactions on my account. But I have no development
+                    experience. Not yet...</p>
+            </section>
+            <section class="lang">
+                <h3>English Level</h3>
+                <ul>
+                    <li class="text2">
+                        Basic from school (A2)
+                    </li>
+                </ul>
+            </section>
+            <div>
+                <h3 class="h3code">Code Example</h3>
+                <span class="code">
+                    <code>Hello World!</code>
+                </span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div>© 2022 <a href="https://github.com/MaMaKaLa" target="_blank">MaMaKaLa</a></div>
+            <a href="https://rs.school/js/" target="_blank"><img src="/icons/rs_school_js.svg" alt="RS School"></a>
+        </div>
+    </footer>
+    <script src="/app.js"></script>
+    <div class="modal" data-modal="1">
+
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+        </svg>
+        <p class="modal__title">Contacts</p>
+        <a href="https://github.com/MaMaKaLa" target="_blank">Github</a>
+        <a href="tel:+375297324487">Call me</a>
+        <a href="mailto:1taylor1825@gmail.com">1taylor1825@gmail.com</a>
+        <a href="https://t.me/+M83RNYSSzu04ZTIy" target="_blank">Telegram</a>
+    </div>
     </div>
 
+    <div class="modal" data-modal="2">
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>Сommunicative</li>
-    </ul>
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+        </svg>
+        <p class="modal__title">About me</p>
+        I am 25. I work at the cinema in the Booker position. Booker in the cinema is responsible for the repertoire and
+        availability of films. I am currently looking for a career in IT. I like learning new things and traveling.
+        Sofar,it turns out to learn only new things, not to travel. I ride a bike a lot. I know how to play hockey.
+    </div>
 
+    <div class="modal" data-modal="3">
 
-    <h2>Code examples</h2>
-    <pre>
-            <code>[Hello World!]</code>
-            </pre>
-
-    <h2>Experience</h2>
-    <p>Nothing yet…</p>
-
-    <h2>Education: Online self education</h2>
-    <ul>
-        <li>htmlacademy - html and css video course</li>
-        <li>RS School - in process...</li>
-    </ul>
-
-
-    <h2>English level</h2>
-    <p>Basic from school (A2)</p>
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+        </svg>
+        <p class="modal__title">NOT today...</p>
+    </div>
+    <div class="overlay js-overlay-modal"></div>
 </body>
 
 </html>
