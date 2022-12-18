@@ -32,6 +32,7 @@ header {
     height: 110px;
     margin: auto;
     background: linear-gradient(90deg, #F0F6FF 0%, #d9e2f0 100%);
+    border-radius: 20px 20px 0px 0px;
 }
 
 header li {
@@ -232,7 +233,7 @@ h4 {
     padding: 0px;
     gap: 190px;
     width: 330px;
-    height: 200px;
+    height: 150px;
 }
 
 .circle {
@@ -332,13 +333,7 @@ h2 {
     width: 150px;
     height: 128px;
     background: linear-gradient(90deg, #6996DB 0%, #0b0a0c 100%);
-    color: aqua;
-}
-
-.js-open-modal:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    color: #d9e2f0;
 }
 
 .h3code {
@@ -353,6 +348,7 @@ footer {
     height: 110px;
     margin: auto;
     background: linear-gradient(90deg, #F0F6FF 0%, #d9e2f0 100%);
+    border-radius: 0px 0px 20px 20px;
 }
 
 footer img {
@@ -361,7 +357,7 @@ footer img {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -399,10 +395,17 @@ a {
     border-radius: 3px;
     background-color: #6996DB;
     transition: 0.3s all;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
 }
 
 .modal.active,
 .overlay.active {
+    display: flex;
+    flex-direction: column;
     opacity: 1;
     visibility: visible;
 }
@@ -419,10 +422,37 @@ a {
 
 .js-open-modal {
     padding: 20px;
-    display: inline-block;
-    text-decoration: none;
     background-color: #6996DB;
     margin: 10px;
     color: #fff;
-    border-radius: 3px;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-item li:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.js-open-modal-in:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.js-open-modal-in {
+    padding: 20px;
+    text-decoration: none;
+    background-color: #d9e2f0;
+    margin: 10px;
+    color: #6996DB;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 15px;
 }
